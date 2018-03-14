@@ -36,7 +36,7 @@ img_rows, img_cols = 28, 28
 
 # Load dataset
 # the data, split between train and test sets
-(x_train, y_train), (x_test, y_test) = fashion_.load_data()
+(x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 
 
 
