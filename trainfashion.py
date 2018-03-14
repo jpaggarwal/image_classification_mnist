@@ -1,6 +1,6 @@
 if __name__=="__main__":
     
-    from DeepModel-Fashion import large_cnn_model, x_train,y_train,x_test,y_test
+    from DeepModelFashion import large_cnn_model, x_train,y_train,x_test,y_test
     print(large_cnn_model.summary())
     
     
